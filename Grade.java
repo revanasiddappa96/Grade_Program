@@ -22,7 +22,7 @@ public class Grade{
     if (count < 1 || count > 5) {
       System.out.println("Invalid number. You must enter between 1 and 5 grades.");
       scanner.close();
-      return; // Exit
+     // Exit
     }
 
     double sum = 0.0;
