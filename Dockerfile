@@ -1,5 +1,5 @@
 FROM openjdk:11
 WORKDIR /app
 COPY . /app
-RUN javac Docker.java
-CMD ["java", "Docker"]
+RUN javac Grade.java
+CMD ["java", "Grade"]
